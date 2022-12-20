@@ -1,0 +1,384 @@
+/* Found by screen size in pixels / 16 pixels */
+@media (max-width: 78em) {
+    .student-box{
+        font-size: 3rem;
+        width:37rem;
+    }
+    .under-student-box{
+        font-size: 1.8rem;
+        width:12rem;
+        transform: translate(-10rem, -4rem);
+        line-height: 2rem;
+    }
+    .about-text{
+        width:36rem;
+    }
+    .myself-image{
+        width: 40rem;
+        height: 40rem;
+    }
+    .card{
+        width:30rem;
+    }
+
+  }
+@media (max-width: 64em){
+    .student-box{
+        transform: translate(26rem, -4rem);
+    }
+    .under-student-box{
+        font-size: 1.8rem;
+        width:12rem;
+        transform: translate(-2rem, -4rem);
+        line-height: 2rem;
+    }
+    .card{
+        width:24rem;
+        margin-left: 1rem;
+        margin-right:1rem;
+    }
+    .card-title{
+        font-size: 2.2rem;
+    }
+    .card-desc{
+        font-size:1.6rem;
+        line-height: 1.8rem;
+    }
+    .button{
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 54em){
+    .name-box{
+        color: #F2FAFF;
+        left: -2.2rem;
+        bottom: 6rem;
+        font-size: 14rem;
+        line-height: 12rem;
+        z-index: 0;
+      }
+
+    .main-nav-link{
+        font-size: 1rem;
+        padding:1rem;
+    }
+    .student-box{
+        font-size: 2.4rem;
+        transform: translate(30rem, -4rem);
+        width:30rem;
+        line-height: 6px;
+    }
+    .under-student-box{
+        font-size: 1.8rem;
+        width:12rem;
+        transform: translate(8rem, -4rem);
+        line-height: 2rem;
+    }
+    .about-text{
+        width:36rem;
+      }
+    h1{
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+      }
+    .about-name{
+        font-size: 3.8rem;
+        letter-spacing: 1px;
+        padding-top: 1.8rem;
+      }
+    .about-desc{
+        font-size: 1.4rem;
+        padding-top: 1.4rem;
+        line-height: 1.8rem;
+      }
+    .about-box{
+        padding-left: 20rem;
+    }
+    .hero-image-box {
+        padding-left: 6rem;
+        font-size: 0;
+        padding-bottom: 6rem;
+      }
+    .myself-image {
+        height:30rem;
+        width:30rem;
+      }
+    .contact-text{
+        width: 20rem;
+        font-size: 2.8rem;
+        font-weight: 300;
+      }
+    .social-links {
+        gap: 2.8rem;
+      }
+    .social-icon {
+        height: 4rem;
+        width: 4rem;
+        color:#F2FAFF;
+      }
+    input,
+    textarea {
+        font-size: 1rem;
+        line-height: 1.6rem;
+      }
+    .input-span{
+        color:#F2FAFF;
+        font-size: 1.4rem;
+      }
+    .form-ul{
+        margin-left: 2rem;
+    }
+@media (max-width: 48em){
+    .hero-image-box {
+        padding-left: 1rem;
+      }
+    }
+    .project-section-title{
+        font-size: 4rem;
+    }
+    .card{
+        width:18rem;
+        margin-left: 1rem;
+        margin-right:1rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card-title{
+        font-size: 1.6rem;
+        padding-top: 1.4rem;
+    }
+    .card-desc{
+        font-size:1rem;
+        line-height: 1.8rem;
+    }
+    .button{
+        height: 2rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+/*@media (max-width: 42em){
+    .name-box{
+        color: #F2FAFF;
+        left: -3rem;
+        bottom: 4rem;
+        font-size: 12rem;
+        line-height: 9rem;
+      }
+    .student-box{
+        font-size: 1.8rem;
+        transform: translate(30rem, -4rem);
+        width:23rem;
+        line-height: 6px;
+    }
+    .under-student-box{
+        font-size: 1.2rem;
+        width:12rem;
+        transform: translate(16rem, -4rem);
+        line-height: 1.2rem;
+    }
+    .about-text{
+        width:24rem;
+      }
+    h1{
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+      }
+    .about-name{
+        font-size: 3rem;
+        padding-top: 1rem;
+      }
+    .about-desc{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+      }
+    .myself-image {
+        height:24rem;
+        width:24rem;
+        
+      }
+    .contact-text{
+        width: 8rem;
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: center;
+      }
+    .form-container{
+        width:80%;
+    }
+    form{
+        padding: 2rem;
+    }
+    
+}
+@media (max-width:37em){
+    .card{
+        width:16rem;
+        margin-left: 8px;
+        margin-right:8px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card-title{
+        padding-top: 1.4rem;
+        padding-bottom: 1rem;
+    }
+    .card-desc{
+        line-height: 1.6rem;
+        padding-bottom: 1rem;
+    }
+    .button{
+        height: 2rem;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}*/
+/* *********************************** */
+/* BELOW 544px (Phones) */
+/* *********************************** */
+
+@media (max-width: 42em) {
+  
+  header nav {
+    display: none;
+  }
+  #hamburger-icon {
+    display: block;
+    position: fixed;
+    top: 1.6rem;
+  }
+  .section-scroll{
+    scroll-snap-align:unset;
+  }
+  .scroll{
+    scroll-snap-type: unset;
+    overflow-y: unset;
+  }
+  .hero{
+    position: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .name-box{
+    position: unset;
+    transform: unset;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+    line-height: 13rem;
+  }
+  .student-box{
+    padding-top: 5rem;
+    position: unset;
+    transform: unset;
+  }
+  .under-student-box{
+    position: unset;
+    transform: unset;
+  }
+  .section-about{
+    align-items: flex-start;
+    height: auto;
+  }
+  .about-box{
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .about-text{
+    text-align: center;
+  }
+  .section-project{
+    height: auto;
+    padding-bottom: 10rem;
+  }
+  .project-section-title{
+    font-size: 5.4rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+  }
+  .project-cards{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-contact{
+    height: auto;
+    margin: 0;
+  }
+  .card{
+    margin-bottom: 3rem;
+    width: 24rem;
+  }
+  .card-title{
+    font-size: 2.4rem;
+  }
+  .card-desc-font{
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  .mobile-card-hidden{
+    display: none;
+  }
+  .button-mobile{
+    height:4rem;
+    font-size: 2rem;
+  }
+  .center-contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  .form-container{
+    width:80%;
+  }
+  .form-ul{
+    padding:0;
+    margin:0;
+  }
+  .hero-image-box{
+    padding: 0;
+  }
+  .about-text{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .about-name{
+    padding-top: 6rem;
+    font-size: 5rem;
+  }
+  .about-me{
+    padding-top: 10rem;
+    font-size: 2.4rem;
+  }
+  .about-desc{
+    padding-top: 1.6rem;
+  }
+  .myself-image-mobile {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    height:auto;
+    width:100%;
+    filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311));
+  }
+  .myself-image {
+    display: none;
+  }
+  .hero-image-box-mobile {
+    justify-self: end;
+    z-index: 1;
+    border: 5rem;
+    padding-left: 0;
+    font-size: 0;
+  }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="manifest" href="manifest.webmanifest"/>
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>Cam Boydd</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <div><a class="nav-logo" href="#top">CB</a></div>
+            <div class="link-box">
+              <li><a class="main-nav-link" href="#top">.Top()</a></li>
+              <li><a class="main-nav-link" href="#about">.About()</a></li>
+              <li><a class="main-nav-link" href="#projects">.Projects()</a></li>
+              <li><a class="main-nav-link" href="#contact">.Contact()</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+      <div class="mobile-box">
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu menu-ul">
+          <li class="menu-li"><a class="menu-li menu-li-border" href="#top">.Top()</a></li>
+          <li class="menu-li"><a class="menu-li menu-li-border" href="#about">.About()</a></li>
+          <li class="menu-li"><a class="menu-li menu-li-border" href="#projects">.Projects()</a></li>
+          <li class="menu-li"><a class="menu-li menu-li-border" href="#contact">.Contact()</a></li>
+        </ul>
+      </div></div>
+    </header>
+    <main>
+      <div class="scroll">
+      <section class="section-hero section-scroll" id="top">
+        <div class="hero">
+          <div class="name-box">
+            <div class="first-name">Cam</div>
+            <div class="last-name">Boydd</div>
+          </div>
+          <div class="student-box">
+            <div class="student-line">Computer</div>
+            <div class="student-line">Science</div>
+            <div class="student-line">Student</div>
+          </div>
+          <div class="under-student-box">
+            <p>Learn.</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbspCreate.</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspExcel.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-about section-scroll" id="about">
+        <div class="about-box">
+          <div class="about-text">
+            <div class="about-title">
+              <h1 class="about-me">.About_Me()</h1>
+            </div>
+            <div class="about-name">
+              <h2>Hi, I'm <span class="span-name">Cam</span>.</h2>
+            </div>
+            <div class="hero-image-box-mobile">
+              <img
+                class="myself-image-mobile"
+                src="img/selfie3.png"
+                alt="Photo of Cam Boydd"
+              />
+            </div>
+            <div class="about-desc">
+              <p>I am a Senior-year student studying an undergraduate major in Computer Science
+            with a concentration in AI, Robotics and Gaming. I found my passion
+            for Computer Science by chance, when I stumbled upon an online
+            course about Python. This is what propelled me into my studies at
+            The University of North Carolina at Charlotte.</p>
+            </div>
+          </div>
+          <div class="hero-image-box">
+            <img
+              class="myself-image"
+              src="img/selfie3.png"
+              alt="Photo of Cam Boydd"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-project section-scroll" id="projects">
+        <div class="project-box">
+          <div class="project-title-box">
+            <h1 class="project-section-title">.Projects()</h1>
+          </div>
+          <div class="project-cards">
+            <div class="card mobile-card-hidden">
+              <div class="card-picture">
+                <img class="card-img" src="img/mugs.png" alt="Photo of Omnifood Project">
+              </div>
+              <div class="card-title">
+                <h3>Mugs Coffee Website</h3>
+              </div>
+              <div class="card-desc">
+                <p class="card-desc-font">My favorite coffee shop in Charlotte, NC is named Mugs. I wanted to make a website for it so I made this using pictures I got in the real shop.</p>
+              </div>
+              <a class="btn-help" href="https://mugs-coffee-charlotte.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <button class="button button-mobile" role="button">View</button>
+              </a>
+            </div>
+            <div class="card">
+              <div class="card-picture">
+                <img class="card-img" src="img/omni.png" alt="Photo of Omnifood Project">
+              </div>
+              <div class="card-title">
+                <h3>Omnifood Udemy Project</h3>
+              </div>
+              <div class="card-desc">
+                <p class="card-desc-font">I coded this website for a Udemy class in Web Development. This project was about a fake food-service business.</p>
+              </div>
+              <div class="button-link">
+              <a class="btn-help" href="https://omnifood-cboydd.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <button class="button button-mobile" role="button">View</button>
+              </a>
+              </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-picture">
+                <img class="card-img" src="img/site.png" alt="Photo of Omnifood Project">
+              </div>
+              <div class="card-title">
+                <h3>Portfolio Website</h3>
+              </div>
+              <div class="card-desc">
+                <p class="card-desc-font">This is the site you are looking at right now! It's written from scratch with HTML and CSS.</p>
+              </div>
+              <div class="button-link">
+              <a class="btn-help" href="https://camboydd.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <button class="button button-mobile" role="button">View</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact section-scroll" id="contact">
+        <div class="form-container">
+          <form class="center-contact-form" name="contact" method="POST" data-netlify="true">
+            <div class="contact-text-box">
+              <div class="contact-text">
+                <h4>Send me </h4>
+                <h4>a message!</h4>
+              </div>
+              <ul class="social-links">
+                <li class="soc-link-button">
+                  <a href="https://www.instagram.com/cam_boydd/" target="_blank" rel="noopener noreferrer"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-instagram"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li class="soc-link-button">
+                  <a href="https://www.facebook.com/cameron.boydd.7" target="_blank" rel="noopener noreferrer"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li class="soc-link-button">
+                  <a href = "mailto: camboydd@yahoo.com" target="_blank" rel="noopener noreferrer"
+                    ><ion-icon
+                      class="social-icon"
+                      name="mail-outline"
+                    ></ion-icon
+                  ></a>
+                </li>
+                <li class="soc-link-button">
+                  <a href="https://www.linkedin.com/in/cameron-boydd-185048217/" target="_blank" rel="noopener noreferrer"
+                    ><ion-icon
+                      class="social-icon"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </li>
+              </ul>
+            </div>
+              <ul class="form-ul">
+                  <li class="form-list">
+                      <label for="name"><span class="input-span">Name <span class="required-star">*</span></span></label>
+                      <input type="text" id="name" name="user_name">
+                  </li>
+                  <li class="form-list">
+                      <label for="mail"><span class="input-span">Email <span class="required-star">*</span></span></label>
+                      <input type="email" id="mail" name="user_email">
+                  </li>
+                  <li class="form-list">
+                      <label for="msg"><span class="input-span">Message</span></label>
+                      <textarea rows="4" cols="50" type="message" id="message" name="user_message"></textarea>
+                  </li>
+                  <li> 
+                    <button type="submit">Send</button>
+                  </li>
+              </ul>
+          </form>
+        </div>
+      </section>
+    </div>
+    </main>
+    <script>
+      </script>
+  </body>
+</html>
