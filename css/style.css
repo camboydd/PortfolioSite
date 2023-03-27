@@ -291,7 +291,7 @@ h1{
   padding-bottom: 4rem;
 }
 .project-section-title{
-  padding-top: 12rem;
+  padding-top: 2rem;
   font-size: 6rem;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(to bottom right, #009DF8, #8F62AC);
@@ -300,18 +300,18 @@ h1{
 }
 .project-cards{
   display: flex;
-  justify-content: space-between;
-  align-items:flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .card{
   display: flex;
   flex-direction: column;
   background-color: #1E2124;
   color: #F2FAFF;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   border-radius: 8%;
-  width:36rem;
+  width:30rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: linear-gradient(to bottom right, #1E2124, #272a2d);
   transition: 0.4s;
