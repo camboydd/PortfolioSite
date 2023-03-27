@@ -403,9 +403,11 @@
   }
   .robot-title{
     padding-top: 0;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
+    width: 30rem;
   }
   .robot-video{
+    border: 5px solid #F2FAFF;
     width:30rem;
     height:30rem;
   }
