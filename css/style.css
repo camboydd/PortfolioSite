@@ -528,3 +528,14 @@ textarea {
   color:#F2FAFF;
   font-size: 2rem;
 }
+.video-box{
+  padding: 3rem;
+}
+.video-section-box{
+  display: flex;
+  justify-content: space-between;
+}
+.robot-title{
+  padding-top: 8rem;
+  font-size: 5rem;
+}
