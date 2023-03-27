@@ -129,11 +129,14 @@
     .form-ul{
         margin-left: 2rem;
     }
+    .section-robot{
+      display:none;
+    }
+  }
 @media (max-width: 48em){
     .hero-image-box {
         padding-left: 1rem;
       }
-    }
     .project-section-title{
         font-size: 4rem;
     }
@@ -157,7 +160,9 @@
         font-size: 1.2rem;
         margin-bottom: 1rem;
     }
-    
+    .section-robot{
+      display:none;
+    }
 }
 /*@media (max-width: 42em){
     .name-box{
@@ -384,5 +389,24 @@
     border: 5rem;
     padding-left: 0;
     font-size: 0;
+  }
+  .section-robot{
+    display:inherit;
+  }
+  .video-box{
+    padding: 3rem;
+  }
+  .video-section-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .robot-title{
+    padding-top: 0;
+    font-size: 1.6rem;
+  }
+  .robot-video{
+    width:30rem;
+    height:30rem;
   }
 }
