@@ -14,7 +14,7 @@
         width:36rem;
     }
     .myself-image{
-        width: 40rem;
+        width: 33rem;
         height: 40rem;
     }
     .card{
@@ -101,8 +101,8 @@
         padding-bottom: 6rem;
       }
     .myself-image {
-        height:30rem;
-        width:30rem;
+        height:25rem;
+        width:20rem;
       }
     .contact-text{
         width: 20rem;
@@ -308,9 +308,7 @@
     margin-bottom: 3rem;
     margin-top: 8rem;
   }
-  .project-cards{
-    
-  }
+  
   .project-cards-mobile{
     display: flex;
     justify-content: space-between;
@@ -374,11 +372,11 @@
   }
   .myself-image-mobile {
     display: block;
-    padding: 0px;
+    padding: 1rem 3rem 1rem 3rem;
     margin: 0px;
     height:auto;
     width:100%;
-    filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311));
+    filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311)) brightness(85%);
   }
   .myself-image {
     display: none;
