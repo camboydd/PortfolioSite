@@ -376,7 +376,7 @@
     margin: 0px;
     height:auto;
     width:100%;
-    filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311)) brightness(85%);
+    filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311)) brightness(90%);
   }
   .myself-image {
     display: none;

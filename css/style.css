@@ -279,7 +279,7 @@ h1{
   margin: 0px;
   height:46rem;
   width:38rem;
-  filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311)) brightness(85%);
+  filter: drop-shadow(24px 24px 6px rgba(0, 0, 0, 0.311)) brightness(90%);
 }
 .myself-image-mobile {
   display: none;
